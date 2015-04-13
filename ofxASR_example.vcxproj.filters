@@ -1,0 +1,742 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxASR\src\ofxSphinxASR.cpp">
+      <Filter>addons\ofxASR\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUI2DGraph.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUI2DPad.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIBaseDraws.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIBiLabelSlider.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIButton.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUICanvas.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUICircleSlider.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIDragableLabelButton.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIDropDownList.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIEventArgs.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIFPS.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIFPSSlider.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIImage.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIImageButton.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIImageSampler.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIImageSlider.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIImageToggle.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUILabel.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUILabelButton.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUILabelToggle.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIMinimalSlider.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIMovingGraph.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIMultiImageButton.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIMultiImageToggle.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUINumberDialer.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIRadio.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIRangeSlider.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIRectangle.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIRotarySlider.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIScrollableCanvas.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUISlider.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUISortableList.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUISpacer.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUISpectrum.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUISuperCanvas.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUITabBar.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUITextArea.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUITextInput.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIToggle.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIToggleMatrix.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIValuePlotter.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIWaveform.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIWidget.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIWidgetWithLabel.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings">
+      <UniqueIdentifier>{877F005D-13E6-0592-1D97-F2E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\src">
+      <UniqueIdentifier>{CCB2AC63-49D2-977C-CFE8-AEAD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\libs">
+      <UniqueIdentifier>{687714A8-1662-FA1C-261F-50F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxASR">
+      <UniqueIdentifier>{43F81776-49DF-1328-3CEE-A70E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxASR\src">
+      <UniqueIdentifier>{656E40A6-131F-63DE-686F-2A3A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxASR\libs">
+      <UniqueIdentifier>{50F4FE22-1F3E-219E-7E8E-3C84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxASR\libs\sphinx">
+      <UniqueIdentifier>{1D72ABB4-FBEA-A707-262F-C5F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxASR\libs\sphinx\include">
+      <UniqueIdentifier>{1B5A7691-947B-BB31-F5E0-1E0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxASR\libs\sphinx\include\sphinx3">
+      <UniqueIdentifier>{87A00F40-009E-0922-F193-4FB8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxASR\libs\sphinx\include\sphinxbase">
+      <UniqueIdentifier>{14451B78-17D5-9C2D-DE70-2F49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxUI">
+      <UniqueIdentifier>{B492C5B0-FF91-9C5A-638A-3142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxUI\src">
+      <UniqueIdentifier>{A00C2D23-6C11-BC86-3993-2CF0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxASR\libs\sphinx\lib">
+      <UniqueIdentifier>{cedb7097-fd9f-4000-acee-ca6cdbf4ef72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxASR\libs\sphinx\lib\win32">
+      <UniqueIdentifier>{35dc12e2-4574-480b-aa87-f7bcb4650dbb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.h">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\src\ofxASR.h">
+      <Filter>addons\ofxASR\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\src\ofxBaseASR.h">
+      <Filter>addons\ofxASR\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\src\ofxSphinxASR.h">
+      <Filter>addons\ofxASR\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\adaptor.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\approx_cont_mgau.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\ascr.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\astar.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\blkarray_list.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\cb2mllr_io.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\classifier.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\classify.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\cmdln_macro.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\confidence.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\cont_mgau.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\corpus.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\ctxt_table.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\dag.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\dict.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\dict2pid.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\encoding.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\endptr.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\fast_algo_struct.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\fillpen.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\fsg.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\fsg_history.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\fsg_lextree.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\fsg_psubtree.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\fsg_search.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\gmm_wrap.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\gs.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\hmm.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\interp.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\kb.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\kbcore.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\kdtree.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\lextree.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\lm.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\lmclass.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\logs3.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\lts.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\mdef.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\misc.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\mllr.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\ms_gauden.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\ms_mgau.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\ms_mllr.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\ms_senone.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\s2_semi_mgau.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\s3types.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\s3_arraylist.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\s3_cfg.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\s3_decode.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\s3_endpointer.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\search.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\sort.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\sphinx3_export.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\srch.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\srch_allphone.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\srch_debug.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\srch_do_nothing.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\srch_flat_fwd.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\srch_fsg.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\srch_output.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\srch_time_switch_tree.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\srch_word_switch_tree.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\stat.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\subvq.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\tmat.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\utt.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\vector.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\vithist.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\whmm.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\wid.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\word_fsg.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\word_graph.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinx3\word_ugprob.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinx3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\ad.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\agc.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\bio.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\bitvec.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\byteorder.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\case.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\ckd_alloc.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\clapack_lite.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\cmd_ln.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\cmn.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\config.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\cont_ad.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\err.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\f2c.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\fe.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\feat.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\filename.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\fixpoint.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\fsg_model.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\genrand.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\glist.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\hash_table.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\heap.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\huff_code.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\info.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\jsgf.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\libutil.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\listelem_alloc.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\logmath.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\matrix.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\mmio.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\mulaw.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\ngram_model.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\pio.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\prim_type.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\profile.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\sbthread.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\sphinxbase_export.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\sphinx_config.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\strfuncs.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\unlimit.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxASR\libs\sphinx\include\sphinxbase\yin.h">
+      <Filter>addons\ofxASR\libs\sphinx\include\sphinxbase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUI.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUI2DGraph.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUI2DPad.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIBaseDraws.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIBiLabelSlider.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIButton.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUICanvas.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUICircleSlider.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIDefines.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIDragableLabelButton.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIDropDownList.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIEventArgs.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIFPS.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIFPSSlider.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIImage.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIImageButton.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIImageSampler.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIImageSlider.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIImageToggle.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUILabel.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUILabelButton.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUILabelToggle.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIMinimalSlider.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIMovingGraph.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIMultiImageButton.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIMultiImageToggle.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUINumberDialer.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIOFWrapper.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIRadio.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIRangeSlider.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIRectangle.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIRotarySlider.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIScrollableCanvas.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUISlider.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUISortableList.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUISpacer.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUISpectrum.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUISuperCanvas.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUITabBar.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUITextArea.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUITextInput.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIToggle.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIToggleMatrix.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIUtils.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIValuePlotter.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIWaveform.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIWidget.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIWidgets.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIWidgetWithLabel.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIWrapper.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\addons\ofxASR\libs\sphinx\lib\win32\sphinxbase.lib">
+      <Filter>addons\ofxASR\libs\sphinx\lib\win32</Filter>
+    </Library>
+    <Library Include="..\..\..\addons\ofxASR\libs\sphinx\lib\win32\s3decoder.lib">
+      <Filter>addons\ofxASR\libs\sphinx\lib\win32</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\addons\ofxASR\libs\sphinx\lib\win32\s3decoder.dll">
+      <Filter>addons\ofxASR\libs\sphinx\lib\win32</Filter>
+    </None>
+    <None Include="..\..\..\addons\ofxASR\libs\sphinx\lib\win32\sphinxbase.dll">
+      <Filter>addons\ofxASR\libs\sphinx\lib\win32</Filter>
+    </None>
+  </ItemGroup>
+</Project>
