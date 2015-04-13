@@ -44,10 +44,20 @@ void ofApp::setup(){
     e->sphinxmodel_dict = "dictionary";
     e->sphinxmodel_fdict = "fillerdict";
 #else
-    e->sphinxmodel_am = "sphinxmodel/digit.8gau";
-    e->sphinxmodel_lm = "sphinxmodel/digit.lm.DMP";
-    e->sphinxmodel_dict = "sphinxmodel/digit.dict";
-    e->sphinxmodel_fdict = "sphinxmodel/digit.fdict";
+    e->sphinxmodel_am		= ofToDataPath("digit_8gau"		, true);
+    e->sphinxmodel_lm		= ofToDataPath("digit.lm.DMP"	, true);
+    e->sphinxmodel_dict		= ofToDataPath("digit.dict"		, true);
+    e->sphinxmodel_fdict	= ofToDataPath("digit.fdict"	, true);
+
+    //e->sphinxmodel_am		= ofToDataPath("sphinxmodel\digit_8gau"		, true);
+    //e->sphinxmodel_lm		= ofToDataPath("sphinxmodel\digit.lm.DMP"	, true);
+    //e->sphinxmodel_dict			= ofToDataPath("sphinxmodel\digit.dict"		, true);
+    //e->sphinxmodel_fdict	= ofToDataPath("sphinxmodel\digit.fdict"	, true);
+
+	cout << "ofApp::setup() -- e->sphinxmodel_am = " <<  e->sphinxmodel_am << endl;
+	cout << "ofApp::setup() -- e->sphinxmodel_lm = " <<  e->sphinxmodel_lm << endl;
+	cout << "ofApp::setup() -- e->sphinxmodel_dict = " <<  e->sphinxmodel_dict << endl;
+	cout << "ofApp::setup() -- e->sphinxmodel_fdict = " <<  e->sphinxmodel_fdict << endl;
 #endif
 
     // Initial the engine
