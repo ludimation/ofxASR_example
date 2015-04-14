@@ -18,5 +18,5 @@ Files in this package:
                  digit_8gau/mixture_weights: The mixture weights. Part of the GMM.
                  digit_8gau/transition_matrices: Probability of a state to another.
 * digit.lm.DMP: The language model.
-* dictionary:   The dictionary which translate word to phonemes.
-* fillerdict:   A special dictionary that only contains some silence.
+* digit.dict:   The dictionary which translate word to phonemes.
+* digit.fdict:  A special dictionary that only contains some silence.
